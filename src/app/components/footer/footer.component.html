@@ -1,0 +1,7 @@
+<footer class="p-2 bg-dark text-white">
+
+Server status:
+<span *ngIf="WsService.socketStatus"  class="text-sucess">conectado</span>
+<span *ngIf="!WsService.socketStatus"  class="text-dange">desconetado</span>
+
+</footer>
